@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Main from './Main.js';
+import Main from './Main';
 
 import 'semantic-ui-css/semantic.min.css';
 

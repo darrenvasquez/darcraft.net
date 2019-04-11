@@ -8,16 +8,6 @@ import './Main.css';
 
 class Main extends Component {
 
-    constructor(props) {
-		super(props);
-		this.link = this.link.bind(this);
-	}
-
-	link = (a, b) => {
-		window.open(a)
-		// window.location.href = a;
-    }
-    
     render() {
 
         return (
@@ -35,7 +25,7 @@ class Main extends Component {
                         </div>
                         <br/>
                         <Container id="info">
-                            <Modal closeIcon trigger={<a href="#" onclick="return false;" id='test'><Icon name='question'/> About DarCraft</a>}>
+                            <Modal closeIcon trigger={<a rel="noopener norefferer" href="# " onclick="return false;" id='test'><Icon name='question'/> About DarCraft</a>}>
                                 <Modal.Header>About DarCraft</Modal.Header>
                                 <Modal.Content>
                                     <Modal.Description>
@@ -46,7 +36,7 @@ class Main extends Component {
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
-                            <Modal closeIcon trigger={<a href="#" onclick="return false;" id='test'><Icon name='file text outline'/> Read the Final Post</a>}>
+                            <Modal closeIcon trigger={<a rel="noopener norefferer" href="# " onclick="return false;" id='test'><Icon name='file text outline'/> Read the Final Post</a>}>
                                 <Modal.Header>Regarding the Future of DarCraft...</Modal.Header>
                                 <Modal.Content>
                                     <Modal.Description>
@@ -81,10 +71,10 @@ class Main extends Component {
                                         Not just the server, but the community we created and everything that came of it. 
                                         Whether it be the lifelong friendships created, my knowledge of computers and programming, or anything else, DarCraft is and always will be something that I will look back at in unending appreciation.<br/><br/>
 
-                                        If you want to stay connected to Darcraftians both now and past the reset, please join our <a href="http://discord.gg/4cf8KtC" target="_blank">Discord server</a>. 
+                                        If you want to stay connected to Darcraftians both now and past the reset, please join our <a rel="noopener noreferrer" href="http://discord.gg/4cf8KtC" target="_blank">Discord server</a>. 
                                         I, as well as many others, are always quick to reply to messages and jump into conversations. 
                                         We will also be posting more information regarding the shutdown there within the next few weeks. 
-                                        If you want to stay connected with me, you can follow my <a href="https://instagram.com/darrenvasquez/" target="_blank">Instagram</a> or simply message me on the Discord server.<br/><br/>
+                                        If you want to stay connected with me, you can follow my <a rel="noopener noreferrer" href="https://instagram.com/darrenvasquez/" target="_blank">Instagram</a> or simply message me on the Discord server.<br/><br/>
 
                                         So, to each and every one of you (yes, even those banned multiple times), <i>thank you for making my dreams come true</i>. 
                                         I hope you had as much fun as I did.<br/><br/>
@@ -95,7 +85,7 @@ class Main extends Component {
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
-                            <Modal closeIcon size='tiny' trigger={<a href="#" onclick="return false;" id='test'><Icon name='download'/> World Downloads</a>}>
+                            <Modal closeIcon size='tiny' trigger={<a rel="noopener noreferrer" href="# " onclick="return false;" id='test'><Icon name='download'/> World Downloads</a>}>
                                 <Modal.Header>World Downloads</Modal.Header>
                                 <Modal.Content>
                                     <Modal.Description>
@@ -105,16 +95,8 @@ class Main extends Component {
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
-                            <a id='test' href="http://discord.gg/4cf8KtC" target='_blank'><Icon name='discord'/> Join our Discord Server</a>
+                            <a rel="noopener noreferrer" id='test' href="http://discord.gg/4cf8KtC" target='_blank'><Icon name='discord'/> Join our Discord Server</a>
                         </Container>
-                        {/* <div id='social'>
-                            <Popup key='download' position='bottom center' inverted='true' trigger={<Icon link name='cloud download' 
-                                onClick={(e) => this.link("https://downloads.darcraft.net", e)} size='big'/>} header='Discord' 
-                                content='Download old maps!'/>
-                            <Popup key='discord' position='bottom center' inverted='true' trigger={<Icon link name='discord' 
-                                onClick={(e) => this.link("http://discord.gg/4cf8KtC", e)} size='big'/>} header='Discord' 
-                                content='Join our Discord server to stay connected with former players!'/>
-                        </div> */}
                     </div>
                 </div>
             </div>
