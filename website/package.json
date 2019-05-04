@@ -18,5 +18,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://darrenvasquez.github.io/darcraft.net/"
+  "homepage": "https://darcraft.net/"
 }
