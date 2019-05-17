@@ -32,7 +32,9 @@ class Main extends Component {
                                         DarCraft was a Survival and Creative Minecraft Server created by DaRr3n911 on November 3rd, 2011.<br/><br/>
                                         DarCraft, originally dubbed "Darren's Minecraft Server", was created with the intent of bringing all of Darren's friends together to enjoy Minecraft together doing whatever they'd like. All of the beginning players were all friends from another server looking for a new home. They all worked together to create a friendly community.<br/><br/>
                                         After a month of being a private, invite-only server, Darren's Minecraft Server became a public server, with staff, plugins, rules, and all the necessary tools to succeed. Without the help of Darren's friends, most notably SirBumpington, who helped hugely in the setup of the server and its' plugins, the server quickly evolved into a prosperous community.<br/><br/>
-                                        <i>longer description coming soon...</i>
+                                        Throughout DarCraft's years of being online, its players went through a variety of maps, each evolving over time as Darren continued to develop new ideas for the spawn, worlds, minigames, events, and plugins that kept the game interesting for many years. Whether it be testing out a Hub system similar to Hypixel with minigames like FreezeTag and DeathSwap, a separate PvP Factions Server, a long an elaborate scavenger hunt, or even something as simple as a token system to reward players for attending events - DarCraft tried its best to keep things interesting.<br/><br/>
+                                        Through the seven and a half years of being online, DarCraft was able to do more than just provide players with entertainment in their free time between classes and work - it also fostered an incredible community. Many friendships were cultivated on this server, some of which are still flourishing today.<br/><br/>
+                                        Despite DarCraft coming to an end after such a long journey, its important to look back on what was accomplished. An estimated 100,000 unique players have joined since starting it in November 2011, it has gone through multiple worlds, dozens of changes and countless drop parties. But, most importantly, we brought people together. For those of you that had the pleasure of experiencing DarCraft yourself, we hope the thought of it brings emotions of nostalgia and happiness.
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
@@ -74,7 +76,7 @@ class Main extends Component {
                                         If you want to stay connected to Darcraftians both now and past the reset, please join our <a rel="noopener noreferrer" href="http://discord.gg/4cf8KtC" target="_blank">Discord server</a>. 
                                         I, as well as many others, are always quick to reply to messages and jump into conversations. 
                                         We will also be posting more information regarding the shutdown there within the next few weeks. 
-                                        If you want to stay connected with me, you can follow my <a rel="noopener noreferrer" href="https://instagram.com/darrenvasquez/" target="_blank">Instagram</a> or simply message me on the Discord server.<br/><br/>
+                                        If you want to stay connected with me, you can message me on the Discord server.<br/><br/>
 
                                         So, to each and every one of you (yes, even those banned multiple times), <i>thank you for making my dreams come true</i>. 
                                         I hope you had as much fun as I did.<br/><br/>
@@ -89,9 +91,7 @@ class Main extends Component {
                                 <Modal.Header>World Downloads</Modal.Header>
                                 <Modal.Content>
                                     <Modal.Description>
-                                        Coming Soon! <br/><br/>
-
-                                        <i>(I'm making this website during finals season, so once things cool down I'll get this set up!)</i>
+                                        Coming Soon! Join the Discord Server to pester Darren about the specific map(s) you want to be able to download!<br/>
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
