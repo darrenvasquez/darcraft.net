@@ -25,7 +25,7 @@ class Main extends Component {
                         </div>
                         <br/>
                         <Container id="info">
-                            <Modal closeIcon trigger={<a rel="noopener norefferer" href="# " onclick="return false;" id='test'><Icon name='question'/> About DarCraft</a>}>
+                            <Modal closeIcon trigger={<a rel="noopener norefferer" href="# " onclick="return false;" id='about'><Icon name='question'/> About DarCraft</a>}>
                                 <Modal.Header>About DarCraft</Modal.Header>
                                 <Modal.Content>
                                     <Modal.Description>
@@ -38,7 +38,7 @@ class Main extends Component {
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
-                            <Modal closeIcon trigger={<a rel="noopener norefferer" href="# " onclick="return false;" id='test'><Icon name='file text outline'/> Read the Final Post</a>}>
+                            <Modal closeIcon trigger={<a rel="noopener norefferer" href="# " onclick="return false;" id='final-post'><Icon name='file text outline'/> Read the Final Post</a>}>
                                 <Modal.Header>Regarding the Future of DarCraft...</Modal.Header>
                                 <Modal.Content>
                                     <Modal.Description>
@@ -87,15 +87,8 @@ class Main extends Component {
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
-                            <Modal closeIcon size='tiny' trigger={<a rel="noopener noreferrer" href="# " onclick="return false;" id='test'><Icon name='download'/> World Downloads</a>}>
-                                <Modal.Header>World Downloads</Modal.Header>
-                                <Modal.Content>
-                                    <Modal.Description>
-                                        Coming Soon! Join the Discord Server to pester Darren about the specific map(s) you want to be able to download!<br/>
-                                    </Modal.Description>
-                                </Modal.Content>
-                            </Modal><br/>
-                            <a rel="noopener noreferrer" id='test' href="http://discord.gg/4cf8KtC" target='_blank'><Icon name='discord'/> Join our Discord Server</a>
+                            <a rel="noopener noreferrer" id='world-dl' href="http://dl.darcraft.net" target='_blank'><Icon name='download'/> World Downloads</a><br/>
+                            <a rel="noopener noreferrer" id='discord' href="http://discord.gg/4cf8KtC" target='_blank'><Icon name='discord'/> Join our Discord Server</a>
                         </Container>
                     </div>
                 </div>
