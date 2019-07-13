@@ -87,7 +87,14 @@ class Main extends Component {
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
-                            <a rel="noopener noreferrer" id='world-dl' href="http://dl.darcraft.net" target='_blank'><Icon name='download'/> World Downloads</a><br/>
+                            <Modal closeIcon size='tiny' trigger={<a rel="noopener noreferrer" href="# " onclick="return false;" id='world-dl'><Icon name='download'/> World Downloads</a>}>
+                                <Modal.Header>World Downloads</Modal.Header>
+                                <Modal.Content>
+                                    <Modal.Description>
+                                        Join the Discord Server and message Darren about the specific map(s) you want to be able to download!<br/>
+                                    </Modal.Description>
+                                </Modal.Content>
+                            </Modal><br/>
                             <a rel="noopener noreferrer" id='discord' href="http://discord.gg/4cf8KtC" target='_blank'><Icon name='discord'/> Join our Discord Server</a>
                         </Container>
                     </div>
