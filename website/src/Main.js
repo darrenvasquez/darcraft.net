@@ -91,7 +91,7 @@ class Main extends Component {
                                 <Modal.Header>World Downloads</Modal.Header>
                                 <Modal.Content>
                                     <Modal.Description>
-                                        Join the Discord Server and message Darren about the specific map(s) you want to be able to download!<br/>
+                                        Join the Discord Server and check the <b><i>#announcements</i></b> channel for a link to the downloads!<br/>
                                     </Modal.Description>
                                 </Modal.Content>
                             </Modal><br/>
